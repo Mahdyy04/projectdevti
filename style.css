@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(img/ln.jpg);
+    margin: 0;
+}
+
+.container {
+    max-width: 98%;
+    margin: auto;
+    padding: 0;
+}
+
+#s {
+    width: 75%;
+}
+
+.aa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4%;
+}
+.acc{
+    color: white;
+}
+textarea{
+    width: 100%;
+}
+.menu {
+    text-align: right;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    color: white;
+    margin-right: 20px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    margin: auto;
+    max-width: 650px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: cornflowerblue;
+}
+#h2{
+    color: cornflowerblue;
+}
+input,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+.nn {
+    text-align: center;
+    font-size: 36px;
+    color: cornflowerblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 3px #888888;
+}
+
+.offre-table {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.offre-table td {
+    padding: 1%;
+    width: 0;
+    text-align: center;
+}
+
+.ac {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px black;
+    transition: transform 1s;
+}
+
+.ac:hover {
+    transform: scale(1.1);
+}
+input[type="submit"] {
+    background-color: cornflowerblue;
+    color: #000;
+    cursor: pointer;
+}
+
+#form{
+    width: 48%;
+    float: left;
+}
+footer,h2{
+    margin: 2%;
+    text-align: center;
+}
+@media screen and (max-width:720px){
+    .aa{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu{
+        text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #s{
+        width: 100%;
+    }
+}
